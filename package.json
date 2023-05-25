@@ -2,6 +2,7 @@
   "name": "@react-tenstack-table",
   "version": "0.1.0",
   "private": false,
+  "description": "Full Customizable and full functionality react tenstack table",
   "module": "./lib/esm/index.js",
   "main": "./lib/cjs/index.js",
   "files": [
@@ -59,5 +60,32 @@
   },
   "devDependencies": {
     "@types/react-date-range": "^1.4.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devlopersabbir/react-tenstack-table.git"
+  },
+  "bugs": {
+    "email": "devlopersabbir@gmail.com",
+    "url": "https://github.com/devlopersabbir/react-tenstack-table/issues"
+  },
+  "homepage": "https://github.com/devlopersabbir/react-tenstack-table#readme",
+  "keywords": [
+    "tabledata",
+    "react-tenstack-table",
+    "tenstack-table",
+    "react-table",
+    "chakra-ui-table",
+    "chakra-tbale",
+    "table",
+    "react-table-data",
+    "date-range-table",
+    "react-full-functionality-table"
+  ],
+  "author": {
+    "email": "devlopersabbir@gmail.com",
+    "name": "Sabbir Hossain Shuvo",
+    "url": "https://www.showwcase.com/devlopersabbir"
+  },
+  "license": "MIT"
 }
