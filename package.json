@@ -35,7 +35,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && npm run copy-files",
+    "clean": "rimraf lib",
+    "tsc": "npm run clean && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && npm run copy-files",
     "prepare": "npm run tsc"
   },
   "eslintConfig": {
